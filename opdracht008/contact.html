@@ -38,7 +38,56 @@
                  <input type="email" name="email" />
             </label> 
         </p>
-        <p>Bericht</p>
+        <p>Telefoonnummer</p>
+        <p> 
+            <label>
+                 <input type="tel" name="tel" />
+            </label> 
+        </p>
+        <p>Leeftijd</p>
+        <p> 
+            <label>
+                 <input type="leeftijd" name="leeftijd" />
+            </label> 
+        </p>
+        <p>Geboortedatum</p>
+        <p> 
+            <label>
+                 <input type="Geboortedatum" name="Geboortedatum" />
+            </label> 
+        </p>
+
+        <hr>
+        <input type="radio" name="gender" value="male"> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="other"> Other<br>
+        <hr>
+        
+        <input type="checkbox" id="frans" name="frans" value="frans">
+        <label for="frans"> frans</label><br>
+        <input type="checkbox" id="italiaans" name="italiaans" value="italiaans">
+        <label for="italiaans"> italiaans</label><br>
+        <input type="checkbox" id="spaans" name="spaans" value="spaans">
+        <label for="spaans"> spaans </label><br>
+        <input type="checkbox" id="arabisch" name="arabisch" value="arabisch">
+        <label for="arabisch"> arabisch </label><br>
+        <hr>
+
+        <label for="favcolor">Kies de kleur van je schort</label>
+        <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+
+        <p>Biografie</p>
+        <p> 
+            <label>
+                <textarea name="message">
+            </textarea>
+            </label>
+        </p> 
+
+        <input type="file" id="myFile" name="filename">
+        <input type="submit">
+
+        <p>Recepten site (url)</p>
         <p> 
             <label>
                 <textarea name="message">
@@ -47,6 +96,7 @@
         </p> 
 
         <p> 
+            <input type="reset" value="Reset">
             <button type="submit">Send</button>
         </p>
     </form>
