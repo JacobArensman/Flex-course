@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href ="css/style.css">
+</head>
+  <body>
+      <div class="container">
+          <header>
+              <nav>
+                  <ul id="nav">
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="services.html">Services</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+
+                  </ul>
+              </nav>
+          </header>
+          <section>
+              <h1>Contact</h1>
+              <p class="subhead">Get in contact with the developer</p>
+          </section>
+      </div>
+
+      <style>
+          body {font-family: Arial, Helvetica, sans-serif;}
+          * {box-sizing: border-box;}
+          
+          input[type=text], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+          }
+          
+          input[type=submit] {
+            background-color: #00cc80;
+            color: white;
+            width: calc(100% - 1em);
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            background: #00cc80;
+              display: block;
+              border-radius: 20px;
+              padding: .5em;
+              text-decoration: none;
+              font-size: 1.5em;
+              margin: 3% auto 7%;
+          }
+          
+          input[type=submit]:hover {
+            background-color: #45a049;
+          }
+          
+          .container {
+            border-radius: 5px;
+            padding: 20px;
+          }
+          </style>
+
+          <div class="container">
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="country">Country</label>
+                <select id="country" name="country">
+                  <option value="australia">Australia</option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                  <option value="netherlands">The Netherlands</option>
+                </select>
+            
+              <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+          </div>
+      
+        <footer>
+          <div class="footer-container">
+                  <div class="container">
+                      <p>© 2011-2020 Alle rechten voorbehouden</p>
+                      <p class="address">Parkstraat 20, 2377 XX<br>The Netherlands</p>
+                      <ul class="footer-links">
+                          <li><a href="#">Terms of service</a></li>
+                          <li><a href="#">Privacy policy</a></li>
+                      </ul>
+                  </div>
+          </div>
+      </footer>
+  </body>
+</html>
